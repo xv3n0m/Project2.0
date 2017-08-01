@@ -16,8 +16,14 @@ Vue.use(Buefy);
 
 // Vue.component('example', require('./components/Example.vue'));
 
-/* temporary not be needed
-const app = new Vue({
-    el: '#app'
+var app = new Vue({
+	el: '#app',
+	data: {}
 });
-*/
+
+$(document).ready(function(){
+	// Dropdown
+	$('.dropdown').hover(function(e){
+		$(this).toggleClass('is-open')
+	});
+});

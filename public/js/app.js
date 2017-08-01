@@ -801,11 +801,17 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
 
 // Vue.component('example', require('./components/Example.vue'));
 
-/* temporary not be needed
-const app = new Vue({
-    el: '#app'
+var app = new Vue({
+	el: '#app',
+	data: {}
 });
-*/
+
+$(document).ready(function () {
+	// Dropdown
+	$('.dropdown').hover(function (e) {
+		$(this).toggleClass('is-open');
+	});
+});
 
 /***/ }),
 /* 10 */
