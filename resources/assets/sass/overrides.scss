@@ -47,14 +47,7 @@
 }
 
 
-/* ========================================
-   =========== Nav Item Override ==========
-   ======================================== */
-
-// I want the .nav-item design that comes from bulma,
-// but with <button> instead of <a>. This is the bulma
-// code but targeting <button> instead, plus a few
-// modifications to normalize the <button> css
+/* Navigation Bar From Bulma For Button Style */
 
 button.nav-item {
   background-color: transparent;
